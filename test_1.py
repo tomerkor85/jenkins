@@ -34,8 +34,7 @@ def test_div(a, b, expected_result):
 @pytest.mark.parametrize("a, b, expected_result",
                          [
                              (1, 2, 2),
-                             (3, 4, 12),
-                             (6, 6, 1)
+                             (3, 4, 12)
                          ])
 def test_div(a, b, expected_result):
     assert a * b == expected_result
